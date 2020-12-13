@@ -1,0 +1,11 @@
+minikube-environment
+Arquivos para a instalação do Minikube
+
+Como instalar
+Minikube
+Criar um cluster com o minikube de forma padrão:
+
+Obs: Caso você utilize alguma ferramenta de virtualização (ex.: virtualbox), passar via --vm-driver= como ultimo argumento do codigo abaixo.
+
+minikube start --memory=3Gb --cpus=3
+
